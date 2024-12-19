@@ -23,8 +23,18 @@ def increment_new_number(new_number):
 
 increment_new_number(new_number)
 
-#TODO: not working
 def add_numbers(a, b):
     return a+b
 
-add_numbers(1, 2)
+num1 = 10
+num2 = 5
+
+sum = add_numbers(num1,num2)
+
+print(sum)
+
+favorite_foods = ["pizza", "mexican", "chimkin"]
+
+for food in favorite_foods:
+    print(food)
+
